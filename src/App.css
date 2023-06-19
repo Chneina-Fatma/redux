@@ -1,0 +1,30 @@
+.card{
+min-width: 250px;
+min-height: 350px;
+max-width: 250px;
+max-height: 350px;
+border: none;
+border-radius: 5px;
+display:flex;
+flex-direction: column;
+justify-content: center;
+margin: 35px;
+}
+
+.card img{
+    min-width: 100%;
+    min-height: 80%;
+    max-width: 100%;
+    max-height: 80%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    margin-top:20px ;
+}
